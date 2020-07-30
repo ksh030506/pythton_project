@@ -1,0 +1,54 @@
+html,
+body {
+      margin: 0;
+}
+
+.item {
+      display: flex;
+      flex-direction: row;
+}
+
+.right {
+      flex: 2;
+      background-color: #4E9CB5;
+      text-align: center;
+      font-family: "AppleSDGothicNeoB00";
+      font-size: 24px;
+      color: white;
+}
+
+.left {
+      flex: 2;
+      background-color: #EA9898;
+      text-align: center;
+      font-family: "AppleSDGothicNeoB00";
+      font-size: 24px;
+      color: white;
+}
+
+img {
+      width: 800px;
+      height: 800px;
+      margin: 30px;
+      margin-bottom: 158px;
+      border-radius: 20px;
+}
+
+.prev {
+      font-size: 40px;
+      position: absolute;
+      top: 520px;
+      left: 40px;
+}
+
+.next {
+      font-size: 40px;
+      position: absolute;
+      top: 520px;
+      left: 1860px;
+}
+
+
+a {
+      text-decoration: none !important;
+}
